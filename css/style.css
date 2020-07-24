@@ -437,6 +437,7 @@ header {
 	opacity: 0;
 	cursor: pointer;
 	width: auto;
+	height: max-content !important;
 }
 
 .checkbox-list input[type="checkbox"] + .radio-label:before {
