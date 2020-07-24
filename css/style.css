@@ -391,7 +391,6 @@ header {
     opacity: 0;
     cursor: pointer;
     width: auto;
-    height: max-content !important;
 }
 .checkbox-list input[type="checkbox"] + .radio-label:before {
     content: "";
@@ -604,6 +603,9 @@ header {
     .form-list .form-item .checkbox-list ul li {
         width: 100%;
         margin-bottom: 20px;
+    }
+    .checkbox-list input[type="checkbox"] {
+        height: 20px !important;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 960px) {
